@@ -46,3 +46,13 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: #188497;
       }
+
+      .styletext{
+        font-size: large;
+
+      }
+
+      .cont {
+
+        text-align: left;
+      }
