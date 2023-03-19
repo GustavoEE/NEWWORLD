@@ -1,12 +1,19 @@
 
     /* sirve para cambiar el color de la etiqueta h1 */
     h1{
-        color: rgb(230, 109, 29);
-        background-color: rgba(27, 157, 138, 0.344);
+        color: rgb(205, 215, 13);
+        background-color: rgba(13, 49, 52, 0.703);
+        font-size: 400%;
+        font-weight: bold;
     }
+    
     /* cambia de color la etiqueta */
     .colores{
-        color: aqua;
+        color: rgb(255, 222, 4);
+        border: 9px solid rgba(15, 160, 164, 0.493);
+        border-radius: 10px;
+        padding: 10px;
+
     }
 
     /* sirve para centrar un div */
@@ -14,10 +21,22 @@
     width: 800px; margin: 0 auto; 
         }
 
+
+    /* sirve para redondear un div */
+    .rounded-div {
+      border: 5px solid rgba(15, 160, 164, 0.493);
+      border-radius: 30px;
+      padding: 30px;
+    }
+    /* div transparente */
+    .transparent-div {
+      background-color: hsla(172, 88%, 40%,0.9);
+    }
+
     
     /* sirve para centrar una tabla */
     .table {
-        border: 1px solid black;
+        border: 4px solid rgb(0, 0, 0);
         margin-left: auto;
         margin-right: auto;
       }
@@ -29,9 +48,9 @@
         justify-content: center;
       }
       
-      /* sirve para cambiar el color de fondo del body */
+      /* sirve para cambiar fondo del body */
       body {
-        background-image: url("https://st2.depositphotos.com/1106005/8592/i/600/depositphotos_85929920-stock-photo-black-and-white-doggy-tile.jpg");
+        background-image: url("https://img.freepik.com/free-photo/beagle-tricolor-puppies-are-posing-cute-white-braun-black-doggies-pets-playing-grey-background_155003-41849.jpg?size=626&ext=jpg&ga=GA1.2.1087152458.1679260412&semt=ais");
         background-color: #eadcbb;
         background-size: cover;
         background-repeat: no-repeat;
@@ -40,19 +59,31 @@
         
       }
       
-      /* sirve para cambiar el fondo del div */
+      /* sirve para cambiar el fondo del div y hacerlo transpartente*/
       .colodiv {
-        background-color: #abe1a3;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: #188497;
+        background-color: hsla(185, 32%, 52%, 0.579);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #172021;
       }
-
+      /* tamaño de las letras */
       .styletext{
-        font-size: large;
+        font-size: x-large;
+        background-color: rgba(78, 206, 187, 0.36);
+        font-weight: 12;
+        
+        
 
       }
 
-      .cont {
-
-        text-align: left;
+      /* cambia el color de fondo de una etiqueta */
+      .fondo-div{
+        background-color: rgba(199, 125, 202, 0.637);
+        
       }
+
+      .font-color{
+
+        color: rgb(255, 162, 0);
+      }
+      
+      
