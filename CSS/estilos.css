@@ -1,9 +1,48 @@
-        h1{
-            color: blue;
-            background-color: black;
+
+    /* sirve para cambiar el color de la etiqueta h1 */
+    h1{
+        color: rgb(230, 109, 29);
+        background-color: rgba(27, 157, 138, 0.344);
+    }
+    /* cambia de color la etiqueta */
+    .colores{
+        color: aqua;
+    }
+
+    /* sirve para centrar un div */
+    #contenido { 
+    width: 800px; margin: 0 auto; 
         }
 
-        .colores{
-            color: aqua;
-        }
-
+    
+    /* sirve para centrar una tabla */
+    .table {
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      
+      /*sirve para centrar*/
+      .cent {
+        display: flex;
+        justify-content: center;
+      }
+      
+      /* sirve para cambiar el color de fondo del body */
+      body {
+        background-image: url("https://st2.depositphotos.com/1106005/8592/i/600/depositphotos_85929920-stock-photo-black-and-white-doggy-tile.jpg");
+        background-color: #eadcbb;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        
+      }
+      
+      /* sirve para cambiar el fondo del div */
+      .colodiv {
+        background-color: #abe1a3;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #188497;
+      }
