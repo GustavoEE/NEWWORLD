@@ -1,7 +1,7 @@
 
     /* sirve para cambiar el color de la etiqueta h1 */
     h1{
-        color: rgb(205, 215, 13);
+        color: rgb(140, 145, 43);
         background-color: rgba(13, 49, 52, 0.703);
         font-size: 400%;
         font-weight: bold;
@@ -9,8 +9,8 @@
     
     /* cambia de color la etiqueta */
     .colores{
-        color: rgb(255, 222, 4);
-        border: 9px solid rgba(15, 160, 164, 0.493);
+        color: rgb(255, 221, 0);
+        border: 9px solid rgb(9, 191, 197);
         border-radius: 10px;
         padding: 10px;
 
@@ -24,13 +24,13 @@
 
     /* sirve para redondear un div */
     .rounded-div {
-      border: 5px solid rgba(15, 160, 164, 0.493);
+      border: 5px solid rgba(18, 221, 228, 0.493);
       border-radius: 30px;
       padding: 30px;
     }
     /* div transparente */
     .transparent-div {
-      background-color: hsla(172, 88%, 40%,0.9);
+      background-color: hsl(172, 56%, 36%);
     }
 
     
@@ -61,14 +61,14 @@
       
       /* sirve para cambiar el fondo del div y hacerlo transpartente*/
       .colodiv {
-        background-color: hsla(185, 32%, 52%, 0.579);
+        background-color: hsla(185, 100%, 43%, 0.501);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: #172021;
+        color: #01441f;
       }
       /* tamaño de las letras */
       .styletext{
         font-size: x-large;
-        background-color: rgba(78, 206, 187, 0.36);
+        background-color: rgba(4, 47, 41, 0.377);
         font-weight: 12;
         
         
@@ -83,7 +83,7 @@
 
       .font-color{
 
-        color: rgb(255, 162, 0);
+        color: rgb(255, 174, 0);
       }
       
       
