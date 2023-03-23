@@ -1,93 +1,95 @@
+    
+    /* (*)Etiqueta universal */
 
-    /* sirve para cambiar el color de la etiqueta h1 */
+    *{
+      margin: 10;
+      padding: 0;
+
+    }
+      
+   /* sirve para cambiar fondo del body */
+   body {
+    background-image: url("https://img.freepik.com/free-photo/beagle-tricolor-puppies-are-posing-cute-white-braun-black-doggies-pets-playing-grey-background_155003-41849.jpg?size=626&ext=jpg&ga=GA1.2.1087152458.1679260412&semt=ais");
+    background-color: #eadcbb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    }
+    /* sirve para centrar un div */
+    #contenido { 
+    width: 800px;
+    margin: 0 auto; 
+    }
+
+    
+    /* sirve para redondear un div y poner trasnparente */
+    .rounded-div {
+      border: 5px solid rgba(18, 221, 228, 0.493);
+      border-radius: 30px;
+      padding: 30px;
+      background-color: hsl(172, 56%, 36%);
+    }
+  
+   
+   /* sirve para cambiar el color de la etiqueta h1 */
     h1{
         color: rgb(140, 145, 43);
         background-color: rgba(13, 49, 52, 0.703);
         font-size: 400%;
         font-weight: bold;
     }
+
+    /*sirve para centrar*/
+    .cent {
+      display: flex;
+      justify-content: center;
+    }
     
     /* cambia de color la etiqueta */
     .colores{
         color: rgb(255, 221, 0);
-        border: 9px solid rgb(9, 191, 197);
         border-radius: 10px;
         padding: 10px;
 
     }
 
-    /* sirve para centrar un div */
-    #contenido { 
-    width: 800px; margin: 0 auto; 
-        }
-
-
-    /* sirve para redondear un div */
-    .rounded-div {
-      border: 5px solid rgba(18, 221, 228, 0.493);
-      border-radius: 30px;
-      padding: 30px;
-    }
-    /* div transparente */
-    .transparent-div {
-      background-color: hsl(172, 56%, 36%);
-    }
-
-    
-    /* sirve para centrar una tabla */
+  
+    /* sirve para centrar una tabla y cambiar el borde de la tabla*/
     .table {
-        border: 4px solid rgb(0, 0, 0);
-        margin-left: auto;
-        margin-right: auto;
-      }
+      border: 5px solid rgb(3, 255, 226);
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    /* cambia el color de fondo de una etiqueta */
+    .fondo-color{
+      background-color: rgba(185, 11, 204, 0.637);
       
-      
-      /*sirve para centrar*/
-      .cent {
-        display: flex;
-        justify-content: center;
-      }
-      
-      /* sirve para cambiar fondo del body */
-      body {
-        background-image: url("https://img.freepik.com/free-photo/beagle-tricolor-puppies-are-posing-cute-white-braun-black-doggies-pets-playing-grey-background_155003-41849.jpg?size=626&ext=jpg&ga=GA1.2.1087152458.1679260412&semt=ais");
-        background-color: #eadcbb;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        
-      }
-      
-      /* sirve para cambiar el fondo del div y hacerlo transpartente*/
-      .colodiv {
-        background-color: hsla(185, 100%, 43%, 0.501);
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: #01441f;
-      }
-      /* tamaño de las letras */
-      .styletext{
-        font-size: x-large;
-        background-color: rgba(4, 47, 41, 0.377);
-        font-weight: 12;
-        
-        
+    }
+ 
 
-      }
-
-      /* cambia el color de fondo de una etiqueta */
-      .fondo-div{
-        background-color: rgba(199, 125, 202, 0.637);
-        
-      }
-
-      .font-color{
-
-        color: rgb(255, 174, 0);
-      }
+    /* sirve para cambiar el fondo del div y hacerlo transpartente*/
+    .colodiv {
+      background-color: hsla(185, 100%, 43%, 0.501);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #10dcf3;
+    }
+    /* tamaño de las letras */
+    .styletext{
+      font-size: x-large;
+      background-color: rgba(4, 47, 41, 0.377);
+      font-weight: 12;
       
-      .color_foot{
+    }
 
-        color: rgba(255, 1, 1, 0.827);
-      }
-      
+    .font-color{
+
+      color: rgb(255, 174, 0);
+    }
+    
+    .color_foot{
+
+      color: rgba(255, 1, 1, 0.827);
+    }
