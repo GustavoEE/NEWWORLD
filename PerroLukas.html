@@ -1,63 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perro Don Lukas</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
+
+    <title>Home | ONG-PELUDOS</title>
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de Estilos Personalizada (estilos.css) -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="img/logopeludos.png">
 </head>
 
 <body>
-    <div id="contenido" class="colodiv rounded-div">
-        <header>
-            <a href="ongpeludos-index.html" style="color: rgb(0, 238, 255);">
-                <img src="img/fondopagina.jpg" width="80px" height="60px">Pagina Principal
-            </a>
-            <a href="ayudapeludogatos.html" style="color: rgb(0, 238, 255);">
-                <img src="img/GatoAurus2.png" width="80px" height="60px">Sección Gatos
-            </a>
+    <div class="container mb-5 rounded-div colodiv">
+        <!-- ENCABEZADO -->
+        <header class="d-flex flex-wrap py-5 mb-5 border-bottom cent">
+            <br>
+            <h1 class="container colores cent">SECCION PERROS</h1>
         </header>
-        <h1 class="cent colores">PERROS EN ADOPCIÓN</h1>
-        <p class="styletext colores">Lukas es un perro en adopción que está buscando un hogar cariñoso. Es un perro de tamaño
-            pequeño con un pelaje suave y cafe. Lukas es muy dulce y amigable con las personas, le encanta recibir
-            atención y caricias. También es muy tranquilo y le gusta pasar tiempo acurrucado en su cama o en el regazo
-            de su dueño. Lukas es un perro joven y tiene algunas necesidades especiales, como una dieta especial y
-            medicamentos diarios para su salud, pero es un perro muy amoroso que busca una familia que pueda brindarle
-            el cuidado y atención que necesita. Si estás buscando un compañero fiel y amoroso, Lukas podría ser el perro
-            adecuado para ti. ¡Considera adoptar a Lukas y darle un hogar para siempre!</p>
-        <hr>
-        <h2 class="cent styletext font-color">Nuestro Perro que busca familia: </h2>
-        <br>
-        <table class="table fondo-color">
-            <tr>
-                <td>
-                    <img src="img/perroLukas.jpg" width="300px" height="250px">
-                </td>
-                <td class="colores">
-                    <li>Nombre: LUKAS</a></li>
-                    <li>Edad: 2 años</li>
-                    <li>Género: Macho </li>
-                    <li>Esterilizado: Si</li>
-                    <li>Nro chip: 3434343434</li>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <a href="ayudapeludoperro.html" class="color_foot">
-            <img src="img/Perrojhon.jpeg" width="40px" height="30px">Volver
-        </a>
-        <hr>
-    </div>
-    <footer>
-        <div class="colodiv" id="contenido">
-            <p class="cent color_foot" >ONG-AyudaPeludos - 2023</p>
-            <p class="cent color_foot">© 2023 Todos los derechos reservados.</p>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ceba24;">
+            <div class="container">
+                <img src="img/logopeludos.png" width="80px" height="80px" alt="logo GatoSweet">
+                <a class="navbar-brand" href="ongpeludos-index.html">HOME PELUDOS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ongpeludos-index.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="ayudapeludogatos.html">Sección Gatos</a>                    
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="ayudapeludoperro.html">Sección Perros</a>                    
+                          </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- seccion adopcion-->
+        <div class="row cent rounded-div">
+            <h1 class="font-color colodiv colores cent">LUKAS</h1>
+            <div class="col-sm-6">
+                <img src="img/perroLukas.jpg" class="card-img-top" alt="imagenperrojack">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <td class="row">
+                            <li>Edad: 2 años</li>
+                            <li>Género: Macho </li>
+                            <li>Esterilizado: Si</li>
+                            <li>Nro chip: 3434343434</li>
+                        </td>
+
+                        <a href="#" class="btn btn-primary">¡INGRESA AQUÍ!</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row row-cols-1 text-center mt-5 mb-3">
+                <p class="styletext colores" style="font-size: xx-large;">"¡Adopta a Lukas y dale un hogar para siempre!
+                    Este perro pequeño de pelaje suave es dulce y amigable con las personas. Aunque necesita una dieta
+                    especial y medicamentos diarios, busca una familia que pueda brindarle el cuidado y atención que
+                    necesita. ¡Conviértete en su compañero fiel y amoroso hoy!"</p>
+            </div>
         </div>
 
-    </footer>
+        <!-- Newsletter -->
+        <div class="row">
+            <div class="row row-cols-1 text-center mt-5 mb-3">
+                <h2>Quiere recibir mas info.</h2>
+                <h3>Ingresa tu correo</h3>
+            </div>
+            <div class="row">
+                <form action="" method="">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="micorreo@mail.com" required>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="submit">Aceptar</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <footer>
+
+            <p class="cent font-color_a">ONG-AyudaPeludos - 2023</p>
+            <p class="cent font-color_a">© 2023 Todos los derechos reservados.</p>
+
+
+        </footer>
+    </div>
+
+
+
+    <!-- Archivo JS Bootstrap 5 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

@@ -14,33 +14,40 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(3px);
     
     }
     /* sirve para centrar un div */
     #contenido { 
-    width: 1300px;
+    width: 1400px;
     margin: 0 auto; 
+    }
+     /* sirve para cambiar el fondo del div y hacerlo transpartente*/
+     .colodiv {
+      background-color: hsla(186, 95%, 32%, 0.959);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #dcb011;
+      font-size: 2vw;
     }
 
     
     /* sirve para redondear un div y poner trasnparente */
     .rounded-div {
-      border: 15px solid rgba(16, 62, 64, 0.581);
-      border-radius: 50px;
-      padding: 20px;
-      background-color: hsla(172, 56%, 36%, 0.5);
+      border: 5px solid rgba(3, 234, 242, 0.585);
+      border-radius: 30px;
+      padding: 45px;
+      background-color: hsla(173, 29%, 43%, 0.466);
     }
-    
 
-  
-   
    /* sirve para cambiar el color de la etiqueta h1 */
     h1{
         color: rgb(140, 145, 43);
         background-color: rgba(13, 49, 52, 0.703);
-        font-size: 600%;
+        font-size: 6vw;
         font-weight: bold;
+
+        
     }
 
     /*sirve para centrar*/
@@ -49,9 +56,9 @@
       justify-content: center;
     }
     
-    /* cambia de color la etiqueta */
+    /* cambia de color de las letras  */
     .colores{
-        color: rgb(255, 221, 0);
+        color: rgb(255, 208, 0);
         border-radius: 10px;
         padding: 20px;
         display: flex;
@@ -77,30 +84,28 @@
     }
  
 
-    /* sirve para cambiar el fondo del div y hacerlo transpartente*/
-    .colodiv {
-      background-color: hsla(185, 100%, 43%, 0.604);
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      color: #010101;
-    }
+   
     /* tamaño de las letras */
-    .styletext{
-      font-size: x-large;
-      background-color: rgba(50, 201, 181, 0.658);
-      font-weight: 10;
-      font-weight: 10;
-      
-    }
-
     .font-color{
 
-      color: rgb(255, 221, 0);
+      color: rgb(255, 191, 0);
+      font-size: 2vw;
     }
-    
+
+    .font-color_a{
+
+      color: rgb(255, 221, 0);
+      font-size: 1vw;
+    }
+    .font-color_tbody{
+
+      color: rgb(8, 21, 10);
+      font-size: 1vw;
+    }
     
 
     h5{
-      font-size: large;
+      font-size: large 6vw;
       font-weight: bold;
       color: black;
     }

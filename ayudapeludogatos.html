@@ -1,73 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GATOS</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
-</head>
+   
+    <title>Home | ONG-PELUDOS</title>    
+ 
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de Estilos Personalizada (estilos.css) --> 
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="img/logopeludos.png">
+  </head>
+  <body>
+    <div class="container mb-5 rounded-div colodiv">
+      <!-- ENCABEZADO -->
+      <header class="d-flex flex-wrap py-5 mb-5 border-bottom cent">
+        <img class="container" src="img/secciongatos.png" width="900px" height="500px"  alt="ayudapeludos">
+        <h1 class="container colores cent">AYUDA A UN PELUDO GATO</h1>
+			</header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ceba24;">
+        <div class="container">
+          <img src="img/logopeludos.png" width="80px" height="80px" alt="logo GatoSweet">
+          <a class="navbar-brand" href="ongpeludos-index.html"> AYUDA PELUDOS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-<body>
-    <div id="contenido" class="colodiv rounded-div">
-        <header>
-            <a href="ongpeludos-index.html" style="color: rgb(0, 238, 255);">
-                <img src="img/fondopagina.jpg" width="80px" height="60px">Pagina Principal
-            </a>
-            <a href="ayudapeludoperro.html" style="color: rgb(0, 238, 255);">
-                <img src="img/Perrojhon.jpeg" width="80px" height="60px">Sección Perros
-            </a>
-        </header>
-        <h1 class="cent colores">GATOS EN ADOPCIÓN</h1>
-        <p class="styletext colores">Si estás buscando un compañero felino, tenemos una amplia variedad de gatos en adopción, de
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ongpeludos-index.html">Inicio</a>                    
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="ayudapeludogatos.html">Sección Gatos</a>                    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="ayudapeludoperro.html">Sección Perros</a>                    
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>                    
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- seccion adopcion-->
+      <div class="row rounded-div cent ">
+        <div class="text-center mt-5">
+          <h2 class="font-color colodiv">NUESTROS GATOS</h2>
+          <p>Si estás buscando un compañero felino, tenemos una amplia variedad de gatos en adopción, de
             diferentes edades, tamaños y personalidades. Todos ellos han sido examinados por un veterinario y están
             listos para encontrar un hogar amoroso y responsable. ¡Adopta hoy y cambia una vida!</p>
-        <hr>
-        <h2 class="cent styletext font-color">Nuestros gatos que buscan familia: </h2>
-        <br>
-        <table class="table fondo-color font-color">
-            <tr>
-                <td>
-                    <img src="img/GatoBill.jpg" width="300px" height="250px">
-                </td>
-                <td>
-                    <li > <a class="font-color"  href="GatoBill.html">BILLSAMA</a></li>
-                </td>   
-            </tr>
-            <tr>
-                <td>
-                    <hr>
-                    <img src="img/GatoTito.jpeg" width="300px" height="250px">
-                </td>
-                <td>
-                    <li> <a class="font-color" href="GatoTito.html">DON TITO</a> </li>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <hr>
-                    <img src="img/GatoSweet.jpg" width="300px" height="250px">
-                </td>
-                <td>
-                    <li> <a class="font-color" href="GatoSweet.html">SWEET</a> </li>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <a href="ongpeludos-index.html" class="color_foot">
-            Volver
-        </a>
-        <hr>
-    </div>
-    <footer>
-        <div class="colodiv" id="contenido">
-            <p class="cent color_foot">ONG-AyudaPeludos - 2023</p>
-            <p class="cent color_foot" >© 2023 Todos los derechos reservados.</p>
-
         </div>
+        
+        <div class="col-sm-6">
+          <img src="img/GatoSweet.jpg" class="card-img-top" alt="perrojack">
+          <div class="card text-center h-20">
+            <div class="card-body">
+              <h5 class="card-title">GATO SWEET</h5>
+              <p class="card-text">Nuestro amigo Sweet está esperando por ti.</p>
+              <a href="ayudapeludoperro.html" class="btn btn-primary">INGRESA AQUÍ</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-6">
+            <img src="img/GatoTito.jpeg" class="card-img-top" alt="perrojack">
+            <div class="card text-center h-20">
+              <div class="card-body">
+                <h5 class="card-title">GATO TITO</h5>
+                <p class="card-text">Nuestro amigo Tito está esperando por ti.</p>
+                <a href="ayudapeludoperro.html" class="btn btn-primary">INGRESA AQUÍ</a>
+              </div>
+          </div>
+          </div>
+        <div class="col-sm-6 " >
+        <img src="img/GatoBill.jpg" class="card-img-top" alt="imagengatobill">
+        <div class="card text-center h-20">
+            <div class="card-body ">
+            <h5 class="card-title">GATO BILLSAMA</h5>
+            <p class="card-text">Nuestro amigo Billsama está esperando por ti.</p>
+            <a href="ayudapeludogatos.html" class="btn btn-primary">INGRESA AQUÍ</a>
+            </div>
+        </div>
+        </div>
+      </div>
 
+      <!-- Newsletter -->
+      <div class="row">
+        <div class="row row-cols-1 text-center mt-5 mb-3">
+          <h2>Quiere recibir mas info.</h2>
+          <h3>Ingresa tu correo</h3>
+        </div>
+        <div class="row">
+          <form action="" method="">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="input-group">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="micorreo@mail.com" required>
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Aceptar</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br>
+      <footer>
+        
+            <p class="cent font-color_a" >ONG-AyudaPeludos - 2023</p>
+            <p class="cent font-color_a" >© 2023 Todos los derechos reservados.</p>
+  
+     
     </footer>
-</body>
+    </div>
+    
 
+ 
+    <!-- Archivo JS Bootstrap 5 -->  
+    <script src="js/bootstrap.bundle.min.js"></script>
+      
+  </body>
 </html>

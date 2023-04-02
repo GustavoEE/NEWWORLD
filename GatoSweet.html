@@ -1,65 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gato Bill</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
+
+    <title>Home | ONG-PELUDOS</title>
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de Estilos Personalizada (estilos.css) -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="img/logopeludos.png">
 </head>
 
 <body>
-    <div id="contenido" class="colodiv rounded-div">
-        <header>
-            <a href="ongpeludos-index.html" style="color: rgb(0, 238, 255);">
-                <img src="img/fondopagina.jpg" width="80px" height="60px">Pagina Principal
-            </a>
-            <a href="ayudapeludoperro.html" style="color: rgb(0, 238, 255);">
-                <img src="img/Perrojhon.jpeg" width="80px" height="60px">Sección Perros
-            </a>
+    <div class="container mb-5 rounded-div colodiv">
+        <!-- ENCABEZADO -->
+        <header class="d-flex flex-wrap py-5 mb-5 border-bottom cent">
+            <br>
+            <h1 class="container colores cent">SECCION GATOS</h1>
         </header>
-        <h1 class="cent colores">GATOS EN ADOPCIÓN</h1>
-        <p class="styletext colores">¡Hola! Parece que estás buscando un hogar amoroso para Sweet, un gato encantador.
-            Sweet es un gato de tamaño mediano con un pelaje suave y sedoso en tonos gris y blanco. Es muy amigable
-            y le encanta pasar tiempo con las personas, especialmente si pueden jugar con él.
-            Si decides adoptar a Sweet, asegúrate de proporcionarle un hogar amoroso y comprometerte a cuidarlo y
-            brindarle todo lo que necesita. También es importante pasar tiempo con él para conocerlo mejor y ver si es
-            el gato adecuado para ti y tu estilo de vida.
-            ¡Si estás listo para darle a Sweet un hogar para siempre, no dudes en considerar la adopción de este
-            adorable gato!</p>
-        <hr>
-        <h2 class="cent styletext font-color">Nuestros gatos que buscan familia: </h2>
-        <br>
-        <table class="table fondo-color">
-            <tr>
-                <td>
-                    <img src="img/GatoSweet.jpg" width="300px" height="250px">
-                </td>
-                <td class="font-color">
-                    <li>Nombre: Sweet</a></li>
-                    <li>Edad: 3 Meses</li>
-                    <li>Género: Macho</li>
-                    <li>Esterilizado: Si</li>
-                    <li>Nro chip: 4545454545</li>
-                </td>
-            </tr>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ceba24;">
+            <div class="container">
+                <img src="img/logopeludos.png" width="80px" height="80px" alt="logo GatoSweet">
+                <a class="navbar-brand" href="ongpeludos-index.html"> AYUDA PELUDOS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-        </table>
-        <hr>
-        <a href="ayudapeludogatos.html" class="color_foot">
-            <img src="img/GatoAurus2.png" width="40px" height="30px">Volver
-        </a>
-        <hr>
-    </div>
-    <footer>
-        <div class="colodiv" id="contenido">
-            <p class="cent color_foot"> ONG-AyudaPeludos - 2023</p>
-            <p class="cent color_foot">© 2023 Todos los derechos reservados.</p>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ongpeludos-index.html">Inicio</a>
+                        </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="ayudapeludogatos.html">Sección Gatos</a>                    
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="ayudapeludoperro.html">Sección Perros</a>                    
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- seccion adopcion-->
+        <div class="row cent rounded-div">
+            <h1 class="font-color colodiv colores cent">SWEET</h1>
+            <div class="col-sm-6">
+                <img src="img/GatoSweet.jpg" class="card-img-top" alt="imagenperrojack">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <td class="row">
+                            <li>Edad: 3 Meses</li>
+                            <li>Género: Macho </li>
+                            <li>Esterilizado: Si</li>
+                            <li>Nro chip: 4545454545</li>
+                        </td>
+
+                        <a href="#" class="btn btn-primary">¡INGRESA AQUÍ!</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row row-cols-1 text-center mt-5 mb-3">
+                <p class="styletext colores" style="font-size: xx-large;">Sweet es un gato encantador en busca de un
+                    hogar amoroso. Es amigable y le encanta jugar con las personas. Asegúrate de cuidarlo y dedicarle
+                    tiempo si decides adoptarlo. ¡Considera adoptar a Sweet y darle un hogar para siempre!</p>
+            </div>
         </div>
 
-    </footer>
+        <!-- Newsletter -->
+        <div class="row">
+            <div class="row row-cols-1 text-center mt-5 mb-3">
+                <h2>Quiere recibir mas info.</h2>
+                <h3>Ingresa tu correo</h3>
+            </div>
+            <div class="row">
+                <form action="" method="">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="micorreo@mail.com" required>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="submit">Aceptar</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <footer>
+
+            <p class="cent font-color_a">ONG-AyudaPeludos - 2023</p>
+            <p class="cent font-color_a">© 2023 Todos los derechos reservados.</p>
+
+
+        </footer>
+    </div>
+
+
+
+    <!-- Archivo JS Bootstrap 5 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
