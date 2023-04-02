@@ -1,82 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayuda Peludo</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
+   
+    <title>Home | ONG-PELUDOS</title>    
+ 
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de Estilos Personalizada (estilos.css) --> 
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="img/logopeludos.png">
+  </head>
+  <body>
+    <div class="container mb-5 rounded-div colodiv">
+      <!-- ENCABEZADO -->
+      <header class="d-flex flex-wrap py-5 mb-5 border-bottom cent">
+        <img src="img/logopeludos.png" alt="ayudapeludos">
+        <h1 class="colores ">AYUDAMOS A LOS PELUDOS</h1>
+			</header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ceba24;">
+        <div class="container">
+          <img src="img/logopeludos.png" width="80px" height="80px" alt="logo GatoSweet">
+          <a class="navbar-brand" href="ongpeludos-index.html"> AYUDA PELUDOS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-</head>
-<!-- contenido de la página web -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>                    
+              </li>
 
-<body >
-    <div id="contenido" class="colodiv rounded-div">      
-        <header><h1 class="cent colores">ONG- AYUDA A UN PELUDO</h1></header>
-        <nav><a href="ongpeludos-index.html" style="color: rgb(0, 238, 255);">
-            <img src="img/fondopagina.jpg" width="80px" height="60px">Pagina Principal
-        </a>
-        <a href="ayudapeludogatos.html" style="color: rgb(0, 238, 255);">
-            <img src="img/GatoAurus2.png" width="80px" height="60px">Sección Gatos
-        </a>
-        <a href="ayudapeludoperro.html" style="color: rgb(0, 238, 255);">
-            <img src="img/Perrojhon.jpeg" width="80px" height="60px">Sección Perros
-        </a>
-        </nav>
-        <h2 class="cent styletext font-color">Nuestra Visión</h2>
-        <P class="styletext colores" >Nuestra ONG se enfoca en brindar una segunda oportunidad a perros y gatos abandonados y
-            maltratados. Creemos en un mundo donde cada animal merece amor y respeto, y trabajamos arduamente para
-            encontrar hogares responsables y amorosos para nuestras mascotas rescatadas. A través de nuestro compromiso
-            y dedicación, esperamos inspirar a otros a unirse a nuestra causa y ayudar a crear un futuro mejor para los
-            animales necesitados.
-        </P>
-        
-        <hr>
-        <h2 class="cent styletext font-color">Nuestros integrantes:</h2>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>                    
+              </li>
 
-        <ul>
-            <li class="cent"> Arlene Fuentes- Directora</li>
-            <li class="cent"> Gustavo Espinoza - Veterinario</li>
-            <li class="cent"> Lucas John - Asistente</li>
-        </ul>
-        <hr>
-        <h2 class="cent styletext font-color">Nuestras secciones de ayuda:</h2>
-        <br>
-        <table class="table fondo-color" >
-            <tr>
-                <td>
-                    <img src="img/GatoBill.jpg" width="300px" height="250px">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="servicios.html">Servicios</a>                    
+              </li>
 
-                </td>
-                <td>
-                    <li> <a class="font-color" href="ayudapeludogatos.html" >>SECCIÓN DE GATOS CLICK< </a></li>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <table class="table fondo-color">
-            <tr>
-                <td>
-                    <img src="img/perroLukas.jpg" width="300px" height="250px">
-                </td>
-                <td>
-                    <li> <a class="font-color" href="ayudapeludoperro.html">>SECCIÓN DE PERROS CLICK< </a> </li>
-                </td>
-            </tr>
-        </table>
-        <hr>
-    </div>
-<!-- pie de pagina -->
-    <footer>
-        <div class="colodiv" id="contenido">
-            <p class="cent color_foot" >ONG-AyudaPeludos - 2023</p>
-            <p class="cent color_foot" >© 2023 Todos los derechos reservados.</p>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>                    
+              </li>
 
+            </ul>
+          </div>
         </div>
+      </nav>
 
+<!-- CARRUSEL -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ 
+      <!-- integrantes -->
+      <div class="col ">
+        <div class="col col-cols-2 text-center mt-5 colodiv">
+          
+          <h2 class="font-color colodiv">INTEGRANTES</h2>
+        </div>
+        <div class="row card mb-5 rounded-div shadow-sm card-body">
+          <table class="text-center">
+            <thead class="list-unstyled mt-3 mb-4 font-color">
+              <tr>
+                <th >
+                  EMPLEADO
+                </th>
+                <th>
+                  CARGO
+                </th>
+              </tr>
+            </thead>
+            <tbody class="list-unstyled mt-3 mb-4">
+            <tr>
+              <td><li > Arlene Fuentes</li></td>
+              <td>Directora</td>
+            </tr>
+            <tr>
+              <td> <li> Gustavo Espinoza</li></td>
+              <td>Veterinario</td>
+            </tr>
+            <tr>
+              <td><li> Lukas John</li></td>
+              <td>Asistente</td>
+            </tr>
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+
+
+      <!-- Planes -->
+      <div class="row">
+        <div class="row row-cols-1 text-center mt-5 mb-3">
+          <h2 class="font-color colodiv">SECCIONES DE PELUDOS</h2>
+        </div>
+        <div class="col-sm-6 " >
+          <img src="img/GatoBill.jpg" class="card-img-top" alt="imagengatobill">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">SECCION GATOS</h5>
+              <p class="card-text">Sección en donde estan nuestros gatos esperándote.</p>
+              <a href="#" class="btn btn-primary">INGRESA AQUÍ</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-6">
+          <img src="img/GatoBill.jpg" class="card-img-top" alt="...">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">SECCION PERROS</h5>
+              <p class="card-text">Sección en donde estan nuestros perros esperándote.</p>
+              <a href="#" class="btn btn-primary">INGRESA AQUÍ</a>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="row">
+        <div class="row row-cols-1 text-center mt-5 mb-3">
+          <h2>Quiere recibir mas info.</h2>
+          <h3>Ingresa tu correo</h3>
+        </div>
+        <div class="row">
+          <form action="" method="">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="input-group">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="micorreo@mail.com" required>
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Aceptar</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br>
+      <footer>
+        
+            <p class="cent font-color" >ONG-AyudaPeludos - 2023</p>
+            <p class="cent font-color" >© 2023 Todos los derechos reservados.</p>
+  
+     
     </footer>
-</body>
+    </div>
+    
 
+ 
+    <!-- Archivo JS Bootstrap 5 -->  
+    <script src="js/bootstrap.bundle.min.js"></script>
+      
+  </body>
 </html>
